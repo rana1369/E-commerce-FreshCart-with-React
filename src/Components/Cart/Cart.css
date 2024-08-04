@@ -1,0 +1,108 @@
+
+.dash{
+   border: 2px solid lightgray;
+   border-radius: .5rem;
+}
+
+.dash-tab{
+   margin: .5rem;
+}
+.dash-tab a.active {
+   
+   color: #0aad0a;
+}
+.tableFixHead 
+{ overflow: auto; 
+   height: calc(100vh - 200px);
+}
+.tableFixHead thead th {
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+}
+
+
+.delivered {
+   color: #0aad0a !important;
+   background-color: lightgreen !important;
+}
+.pending{
+   color: black !important;
+   background-color: lightgray  !important;
+  
+}
+#bar-progress {
+   width: 100%;
+   display: inline-flex;
+   justify-content: center;
+   border: 1px solid lightgray;
+   border-radius: 1rem;
+   padding: 3rem;
+}
+
+#bar-progress .step {
+   display: inline-block;
+}
+
+#bar-progress .step .number-container {
+   display: inline-block;
+   align-items: center;
+   border: solid 1px var(--main-color);
+   border-radius: 50%;
+   width: 4rem;
+   height: 4rem;
+}
+
+#bar-progress .step.step-active .number-container {
+   background-color: var(--main-color);
+}
+
+#bar-progress .step .number-container .number {
+   font-weight: 700;
+   font-size: .8em;
+   line-height: 1.75em;
+   display: block;
+   text-align: center;
+}
+
+#bar-progress .step.step-active .number-container .number {
+   color: white;
+}
+
+#bar-progress .step h5 {
+   display: inline;
+   font-weight: 100;
+   font-size: .8em;
+   margin-left: 10px;
+   text-transform: uppercase;
+}
+
+#bar-progress .seperator {
+   display: block;
+   width: 20px;
+   height: 1px;
+   background-color: rgba(0, 0, 0, .2);
+   margin: auto 20px;
+}
+
+
+.cart{
+   border: 1px solid lightgray !important;
+   border-radius: 2rem !important;
+   padding: 1rem !important;
+}
+
+.image-item{
+   width: 80px;
+   height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
